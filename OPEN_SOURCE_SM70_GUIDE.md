@@ -32,19 +32,19 @@ python -m pip install torch torchvision torchaudio --index-url https://download.
 当前本地构建产物示例文件名：
 
 ```bash
-vllm-0.15.2rc1.dev2+g72bb24e2d.d20260320-cp312-cp312-linux_x86_64.whl
+vllm-0.0.3.dev0+g55573923a.d20260321.cu128-cp312-cp312-linux_x86_64.whl
 ```
 
 本地文件安装：
 
 ```bash
-python -m pip install ./vllm-0.15.2rc1.dev2+g72bb24e2d.d20260320-cp312-cp312-linux_x86_64.whl
+python -m pip install ./vllm-0.0.3.dev0+g55573923a.d20260321.cu128-cp312-cp312-linux_x86_64.whl
 ```
 
 如果你把 wheel 作为 GitHub Release 资产发布，也可以直接用 URL 安装：
 
 ```bash
-python -m pip install "https://github.com/1CatAI/1Cat-vLLM/releases/download/v0.0.2/vllm-0.15.2rc1.dev2+g72bb24e2d.d20260320-cp312-cp312-linux_x86_64.whl"
+python -m pip install "https://github.com/1CatAI/1Cat-vLLM/releases/download/v0.0.2/vllm-0.0.3.dev0+g55573923a.d20260321.cu128-cp312-cp312-linux_x86_64.whl"
 ```
 
 说明：
